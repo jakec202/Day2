@@ -1,0 +1,18 @@
+package Day2;
+
+import java.util.Scanner;
+
+public class Day2 {
+
+	public static void main(String[] args) {
+
+		String whoAmITalkingTo = null;
+		
+		Scanner alien = new Scanner(System.in);
+				
+		System.out.println("Hello World");
+		whoAmITalkingTo = alien.nextLine();
+		
+		System.out.println("Hello " + whoAmITalkingTo);
+	}
+}

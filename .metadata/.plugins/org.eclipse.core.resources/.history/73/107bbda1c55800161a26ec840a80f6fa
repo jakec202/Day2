@@ -1,0 +1,30 @@
+package Day2;
+
+import java.util.Scanner;
+
+public class Day2 {
+
+	public static void main(String[] args) {
+
+		float[] aBunchOfFloats = new float[5];
+		int[]aBunchOfInts = {189, 50, 93, 21, 5};
+		
+		int aNumberInTheArray = aBunchOfInts[2]
+				
+				System.out.println(aNumberInTheArray);
+		
+		
+		String whoAmITalkingTo = null;
+		
+		Scanner alien = new Scanner(System.in);
+				
+		System.out.println("Hello World");
+		whoAmITalkingTo = alien.nextLine();
+		
+		System.out.println("Hello " + whoAmITalkingTo);
+		
+		alien.close();
+		
+	}
+	
+}

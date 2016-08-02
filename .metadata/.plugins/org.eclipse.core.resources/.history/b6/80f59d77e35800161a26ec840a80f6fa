@@ -1,0 +1,26 @@
+package explorerproject;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class explorerproject {
+
+	public static void main(String[] args) {
+		String sayHi = "Hello World";
+		int americaDiscovered = 1492;
+		boolean DogAtHome ;
+		DogAtHome= true;
+		String todaysDate = "August 2nd";
+		char xyl = 'X';
+		float lunchMoney = 5.45f;
+								
+
+		System.out.println(sayHi);
+
+	
+		System.out.println("Columbus sailed the World in " + americaDiscovered);
+		
+		System.out.println("It is " + DogAtHome + " that I have a dog at home");
+		
+		System.out.println("Today is " + todaysDate);
+	}
+}

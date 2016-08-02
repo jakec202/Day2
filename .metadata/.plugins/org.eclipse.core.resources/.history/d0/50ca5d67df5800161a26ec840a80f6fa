@@ -1,0 +1,28 @@
+package explorerproject;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class explorerproject {
+
+	public static void main(String[] args) {
+		String sayHi = "Hello World";
+		int columbusSailed;
+		columbusSailed = 1492;
+		boolean doIHaveADog ;
+		doIHaveADog= true;
+		String todaysDate = "August 2nd";
+		char X;
+		
+		
+				
+
+		System.out.println(sayHi);
+
+	}
+
+	public static void main(int[] args) {
+
+		System.out.println(1492);
+
+	}
+}

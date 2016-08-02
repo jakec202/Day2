@@ -1,0 +1,13 @@
+package explorerproject;
+
+public class explorerproject {
+
+	public static void main(String[] args) {
+		
+		int SayHi = "Hello World";
+		
+		System.out.println("SayHi");
+	}
+	
+}
+

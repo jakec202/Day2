@@ -1,0 +1,19 @@
+package explorerproject;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class explorerproject {
+	
+	public static void main(String[] args) {
+		String sayHi = "Hello World";
+		System.out.println(sayHi);
+	}	
+
+	public static void main(int[] args) {
+		int columbusSailed = {"1492"};
+				System.out.println(columbusSailed);
+	
+				
+	
+	}
+}

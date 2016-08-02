@@ -1,0 +1,10 @@
+package explorerproject;
+
+public class explorerproject {
+
+	public static void main(String[] args) {
+		String sayHi = "Hello World";
+		System.out.println(sayHi);
+	}
+
+}
