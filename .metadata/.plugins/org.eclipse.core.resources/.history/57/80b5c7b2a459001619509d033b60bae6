@@ -1,0 +1,35 @@
+package com.fizzbuzz;
+
+public class MethodCalling {
+
+	public static void beTheThat() {
+		beTheThat();
+	}
+	
+	public static String notOnHere()
+	{
+		return null;	
+	}	
+	
+	public static void weGotUp(){
+		weGotUp();
+	}
+	
+	public static String sayHi(){
+		String sayHi = ("Hello");
+		return sayHi;
+		System.out.println(sayHi);
+	}
+	
+	public static int main(String[] args) {
+		int oriolesWin = 88;
+		return oriolesWin;
+	}
+	
+	
+		
+		
+		
+
+
+	}

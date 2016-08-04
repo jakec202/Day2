@@ -1,0 +1,30 @@
+package fizzbuzz;
+
+public class workingwithmethod {
+	
+	public static void main(String[] args){
+		
+		boolean doWeHaveAllTheNotebooks = true;
+		
+		doWeHaveAllTheNotebooks = false;
+		
+		notebook(doWeHaveAllTheNotebooks);
+	}
+	
+	public static String notebook(boolean isLost){
+		
+		String whatToDoNow = null;
+		
+		if (isLost){
+			whatToDoNow = "Good, we have all the books.";
+			
+		}else{
+			whatToDoNow = "Ask the students";
+		}
+		
+		return whatToDoNow;
+		
+							
+	}
+
+}

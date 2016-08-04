@@ -1,0 +1,20 @@
+package fizzbuzz;
+
+public class fizzbuzz {
+	
+	public static void main(String[] args){
+		
+		//FizzBuzzBang
+		//test if 3 is cleanly divisible - replace w/ fizz
+//		test if 5 is cleanly divisible - replace w/ buzz
+//      test if 7 is cleanly divisible - replace w/ bang
+		
+		for (int i = 1; i <= 110; i++){
+			System.out.println(i);
+			
+		}
+			
+		}
+	}
+
+

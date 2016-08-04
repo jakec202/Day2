@@ -1,0 +1,23 @@
+package fizzbuzz;
+
+public class xmas {
+
+	public static void main(String[]args){
+		
+	for (int day = 1; day < 13; day++){
+		System.out.println("On the " + day);
+	
+		switch (day){
+		case 1:
+			System.out.println(st);
+		}
+		
+		}
+	
+	
+			
+	
+	
+	
+}
+}

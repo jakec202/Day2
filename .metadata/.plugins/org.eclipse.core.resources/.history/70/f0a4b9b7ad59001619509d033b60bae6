@@ -1,0 +1,19 @@
+package com.fizzbuzz;
+
+public class Bowling {
+	public static void main(String[] args) {
+		int throwsPerFrame = 2;
+		int frames = 10;
+	//	int pins = 10;
+		
+		for (int i = 1; i <= frames; i ++){
+			int throw1perframe = (int)(Math.random()*10);
+					
+					System.out.println(throw1perframe);
+			
+			
+			;
+		}
+	}
+
+}

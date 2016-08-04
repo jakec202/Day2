@@ -1,0 +1,11 @@
+package fizzbuzz;
+
+public class methodcalling {
+
+	public static void beTheThat() {
+		beTheThat();
+		
+		System.out.println();
+		
+	}
+}

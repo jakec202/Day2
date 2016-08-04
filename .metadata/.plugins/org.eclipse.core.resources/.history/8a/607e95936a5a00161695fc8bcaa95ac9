@@ -1,0 +1,22 @@
+package com.aug4;
+
+import java.util.Scanner;
+
+public class PigLatin {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("What is your name?");
+		String userinput = sc.nextLine();
+		
+		System.out.println(userinput);
+		StringBuilder modUserInput = new StringBuilder(userinput);
+		char firstLetter = modUserInput.charAt(0);
+		char deleteFirstLetter = modUserInput.charAt(0);
+		modUserInput.append(firstLetter);
+		System.out.println(modUserInput);
+		
+	}
+}

@@ -1,0 +1,13 @@
+package fizzbuzz;
+
+public class workingwithRandom {
+
+	public static void main(String[] args) {
+		int numberOfDice = 10;
+		int sidesOnADie = 6;
+		
+		int diceRoll = (int)(Math.random()* sidesOnADie + 1);
+		
+		System.out.println(diceRoll);
+		
+	}}

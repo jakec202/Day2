@@ -1,0 +1,16 @@
+package com.fizzbuzz;
+
+public class Bowling {
+	public static void main(String[] args) {
+	//	int throwsPerFrame = 2;
+		int frames = 10;
+	//	int pins = 10;
+		
+		for (int i = 1; frames <= 10; frames ++){
+		//	int throwsPerFrame = 2;
+			
+			System.out.println(frames);
+		}
+	}
+
+}

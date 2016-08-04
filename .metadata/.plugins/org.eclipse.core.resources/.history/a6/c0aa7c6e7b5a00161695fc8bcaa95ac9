@@ -1,0 +1,28 @@
+package com.aug4;
+
+import java.util.Scanner;
+
+public class AfternoonWork {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("What is your name?");
+		String userinput = sc.nextLine();
+		
+		System.out.println(userinput);
+		StringBuilder modUserInput = new StringBuilder(userinput);
+		char firstLetter = modUserInput.charAt(0);
+		
+		System.out.println(firstLetter);
+		
+		modUserInput.deleteCharAt(0);
+		System.out.println(modUserInput);
+		
+		modUserInput.insert(0, 'X');
+		System.out.println(modUserInput);
+		
+	}
+
+}
